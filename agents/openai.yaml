@@ -1,0 +1,13 @@
+interface:
+  display_name: Luiwwi Contable
+  short_description: "Contabilidad mexicana, impuestos y cumplimiento SAT"
+  default_prompt: "Usa $luiwwi-contable para auditar esta contabilidad mexicana, identificar obligaciones y preparar papeles sustentados en fuentes oficiales del periodo."
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
